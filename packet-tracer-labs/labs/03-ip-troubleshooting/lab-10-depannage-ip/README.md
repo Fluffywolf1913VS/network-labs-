@@ -69,7 +69,6 @@ We corrected the configuration and re-tested the network.
 - Verified interface settings
 - Saved the working configuration
 
-![Fix Applied](./assets/04-fix-applied.png)
 
 ## Validation
 
@@ -80,7 +79,6 @@ After the correction, the network was tested again.
 - Connectivity restored
 - Devices communicated correctly
 
-![Successful Ping](./assets/05-successful-ping.png)
 
 ## What I Learned
 
