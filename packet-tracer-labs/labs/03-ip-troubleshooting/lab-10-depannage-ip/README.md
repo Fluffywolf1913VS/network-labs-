@@ -20,7 +20,7 @@ This repository documents the issue, the troubleshooting process, the correction
 
 ## Topology
 
-![Topology Overview](./assets/01-topology-overview.png)
+![Topology Overview](./assets/topology.png)
 
 ## Initial Problem
 
