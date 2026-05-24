@@ -1,0 +1,9 @@
+enable
+configure terminal
+vlan 999
+ name vlan-group
+exit
+interface range fa0/1 - 2
+ switchport mode trunk
+end
+copy running-config startup-config

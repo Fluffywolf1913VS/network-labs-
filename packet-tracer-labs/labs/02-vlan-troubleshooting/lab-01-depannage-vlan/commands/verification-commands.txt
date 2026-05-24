@@ -1,0 +1,6 @@
+show vlan brief
+show interfaces trunk
+show spanning-tree
+show interfaces fa0/1 switchport
+show interfaces fa0/2 switchport
+show ip interface brief

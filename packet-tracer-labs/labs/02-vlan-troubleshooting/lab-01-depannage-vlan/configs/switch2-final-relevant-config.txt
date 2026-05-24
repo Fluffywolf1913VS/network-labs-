@@ -1,0 +1,11 @@
+! Relevant configuration applied on Switch2
+vlan 999
+ name vlan-group
+!
+interface fa0/1
+ description Trunk_to_Switch0
+ switchport mode trunk
+!
+interface fa0/2
+ description Trunk_to_Switch1
+ switchport mode trunk

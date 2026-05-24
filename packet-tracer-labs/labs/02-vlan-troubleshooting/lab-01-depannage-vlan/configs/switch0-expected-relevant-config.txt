@@ -1,0 +1,17 @@
+! Relevant configuration expected on Switch0
+vlan 999
+ name vlan-group
+!
+interface fa0/1
+ description Trunk_to_Switch2
+ switchport mode trunk
+!
+interface fa0/2
+ description PC0_access_port
+ switchport mode access
+ switchport access vlan 999
+!
+interface fa0/3
+ description PC1_access_port
+ switchport mode access
+ switchport access vlan 999

@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Packet Tracer autosaves/backups
+*.pka~
+*.pkt~
