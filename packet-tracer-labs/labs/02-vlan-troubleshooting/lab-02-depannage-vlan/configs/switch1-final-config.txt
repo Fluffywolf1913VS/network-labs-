@@ -1,0 +1,17 @@
+! Switch1 final configuration used in the lab
+! Main fix: Fa0/2 is trunk, Fa0/3 is access VLAN 100
+conf t
+vlan 100
+ name USERS
+
+interface fa0/2
+ switchport mode trunk
+ switchport trunk allowed vlan 100
+ no shutdown
+
+interface fa0/3
+ switchport mode access
+ switchport access vlan 100
+ no shutdown
+end
+wr
