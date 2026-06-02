@@ -1,0 +1,11 @@
+! Switch1 - reference configuration
+vlan 10
+ name VLAN0010
+!
+interface FastEthernet0/1
+ switchport mode access
+ switchport access vlan 10
+!
+interface FastEthernet0/2
+ switchport mode trunk
+!

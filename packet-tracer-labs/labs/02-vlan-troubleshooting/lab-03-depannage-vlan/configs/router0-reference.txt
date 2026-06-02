@@ -1,0 +1,13 @@
+! Router0 - router-on-a-stick reference configuration
+interface GigabitEthernet0/0
+ no ip address
+ no shutdown
+!
+interface GigabitEthernet0/0.2
+ encapsulation dot1Q 2
+ ip address 192.168.2.254 255.255.255.0
+!
+interface GigabitEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 10.255.255.254 255.0.0.0
+!

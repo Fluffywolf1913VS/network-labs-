@@ -1,0 +1,17 @@
+! Switch0 - correction applied
+vlan 2
+ name VLAN0002
+!
+vlan 10
+ name VLAN0010
+!
+interface FastEthernet0/1
+ switchport mode access
+ switchport access vlan 2
+!
+interface FastEthernet0/2
+ switchport mode trunk
+!
+interface FastEthernet0/3
+ switchport mode trunk
+!
