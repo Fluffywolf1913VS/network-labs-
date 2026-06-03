@@ -1,0 +1,24 @@
+! Switch1 reference configuration for Lab 04
+!
+vlan 10
+ name VLAN0010
+!
+vlan 20
+ name VLAN0020
+!
+interface FastEthernet0/1
+ description Trunk to Switch2
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+!
+interface FastEthernet0/2
+ description PC1 - VLAN 10
+ switchport mode access
+ switchport access vlan 10
+!
+interface FastEthernet0/3
+ description PC3 - VLAN 20
+ switchport mode access
+ switchport access vlan 20
+!
+end
