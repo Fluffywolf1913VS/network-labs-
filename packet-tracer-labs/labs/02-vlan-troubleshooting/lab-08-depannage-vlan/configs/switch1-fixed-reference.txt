@@ -1,0 +1,8 @@
+interface FastEthernet0/1
+ switchport mode access
+ switchport access vlan 2
+!
+interface FastEthernet0/6
+ switchport mode access
+ switchport access vlan 3
+!
