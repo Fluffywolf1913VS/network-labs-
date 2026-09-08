@@ -1,4 +1,4 @@
-# Phase 1.1 - Basic LAN Connectivity Troubleshooting
+# Phase 1.1 -# Basic LAN Connectivity Troubleshooting - Disabled Switch Port
 
 ## Objective
 
