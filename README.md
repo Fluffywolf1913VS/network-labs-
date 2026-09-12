@@ -41,8 +41,8 @@ The objective is not simply to configure working networks, but to demonstrate a 
 
 | Directory | Technical purpose | Repository content |
 |:---|:---|:---:|
-| **[CCNA](./CCNA/)** | Cisco IOS command references, network fundamentals, Layer 2/Layer 3 troubleshooting exercises, and progressive CCNA projects | **73 files**<br>36 documents<br>37 screenshots |
-| **[packet-tracer-labs](./packet-tracer-labs/)** | Practical Packet Tracer implementations covering switching, routing, infrastructure services, network security, and fault remediation | **218 files**<br>17 `.pkt` topologies<br>113 screenshots |
+| **[CCNA](./CCNA/)** | Cisco IOS command references, network fundamentals, Layer 2/Layer 3 troubleshooting exercises, and progressive CCNA projects | **73 files**<br>36 documents<br> |
+| **[packet-tracer-labs](./packet-tracer-labs/)** | Practical Packet Tracer implementations covering switching, routing, infrastructure services, network security, and fault remediation |<br>17 `.pkt` topologies<br> |
 | **[CCNA-Exam-lab](./CCNA-Exam-lab/)** | Day-by-day CCNA 200-301 tracker covering switching, routing, services, security, wireless networking, and automation | **48 referenced labs** |
 | **[assets](./assets/)** | Visual resources used in the repository documentation | Repository banner |
 
