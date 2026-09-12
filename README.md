@@ -1,122 +1,231 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a8d9565-068c-46e9-8bfe-c2f75b00aa47" width="750" alt="Network Engineering Lab">
+</p>
 
+<h1 align="center">🌐 Network Engineering & CCNA Lab Portfolio</h1>
 
+<p align="center">
+  <strong>Cisco IOS · Routing & Switching · Network Security · Infrastructure Troubleshooting</strong>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Cisco-CCNA-1BA0D7?logo=cisco&logoColor=white">
+  <img src="https://img.shields.io/badge/Cisco-Packet%20Tracer-049FD9">
+  <img src="https://img.shields.io/badge/Hands--on-Labs-22C55E">
+  <img src="https://img.shields.io/badge/Portfolio-Active-blue">
+</p>
 
-<img width="609" height="361" alt="Capture d’écran 2026-09-12 à 16 12 33" src="https://github.com/user-attachments/assets/3a8d9565-068c-46e9-8bfe-c2f75b00aa47" />
+---
 
+## 🎯 Repository Overview
 
+This repository documents my **hands-on development in network engineering and CCNA-level infrastructure**.
 
+It combines:
 
-Network Engineering & CCNA Lab Portfolio
+- **Cisco IOS configuration**
+- **Packet Tracer network topologies**
+- **Layer 2 and Layer 3 troubleshooting**
+- **Routing and switching protocol verification**
+- **Network fault isolation and remediation**
+- **Infrastructure security validation**
+- **Technical documentation and evidence collection**
 
-Cisco IOS · Routing & Switching · Network Security · Infrastructure Troubleshooting
+The objective is not simply to configure working networks, but to demonstrate a structured engineering process:
 
+> **Baseline → Reproduce → Inspect → Isolate → Remediate → Validate → Document**
 
+---
 
+## 🗂️ Repository Architecture
 
+| Directory | Technical purpose | Repository content |
+|:---|:---|:---:|
+| **[CCNA](./CCNA/)** | Cisco IOS command references, network fundamentals, Layer 2/Layer 3 troubleshooting exercises, and progressive CCNA projects | **73 files**<br>36 documents<br>37 screenshots |
+| **[packet-tracer-labs](./packet-tracer-labs/)** | Practical Packet Tracer implementations covering switching, routing, infrastructure services, network security, and fault remediation | **218 files**<br>17 `.pkt` topologies<br>113 screenshots |
+| **[CCNA-Exam-lab](./CCNA-Exam-lab/)** | Day-by-day CCNA 200-301 tracker covering switching, routing, services, security, wireless networking, and automation | **48 referenced labs** |
+| **[assets](./assets/)** | Visual resources used in the repository documentation | Repository banner |
 
+> **Note:** File counts represent the repository state when this overview was prepared.
 
-Repository Overview
+---
 
-This repository documents my hands-on development in network engineering and CCNA-level infrastructure.
+## 🔌 Layer 2 Switching
 
-It combines Cisco IOS configuration, Packet Tracer network topologies, protocol verification, Layer 2 and Layer 3 fault isolation, configuration remediation, and technical documentation.
+- **Ethernet frame forwarding**
+- **MAC address-table analysis**
+- **VLAN creation and segmentation**
+- **Access-port configuration**
+- **IEEE 802.1Q trunking**
+- **Native VLAN troubleshooting**
+- **Allowed-VLAN verification**
+- **Access/trunk mode mismatch detection**
+- **STP and RSTP topology analysis**
+- **Root bridge and port-state verification**
+- **EtherChannel link aggregation**
+- **Port security**
+- **DHCP snooping**
+- **Dynamic ARP Inspection**
 
-Repository Architecture
-Directory	Technical purpose	Repository content
-CCNA	Network fundamentals, Cisco IOS CLI references, structured Layer 2/Layer 3 troubleshooting exercises, and progressive CCNA projects	73 files: 36 technical documents and 37 validation screenshots
-packet-tracer-labs	Practical Cisco Packet Tracer implementations covering switching, routing, infrastructure services, network security, and fault remediation	218 files: including 17 .pkt topologies and 113 screenshots
-CCNA-Exam-lab	Day-by-day CCNA 200-301 lab tracker covering switching, routing, network services, security, wireless networking, and automation	48 referenced Packet Tracer labs
-assets	Visual resources used by the repository documentation	Network portfolio banner
+---
 
-File counts represent the repository state when this overview was prepared.
+## 🛣️ Layer 3 Routing
 
-Technical Coverage
-Layer 2 Switching
-Ethernet frame forwarding
-MAC address-table analysis
-VLAN creation and access-port assignment
-IEEE 802.1Q trunk configuration
-Native VLAN troubleshooting
-Allowed-VLAN verification
-Access/trunk mode mismatch detection
-STP and RSTP topology analysis
-Root bridge and port-state verification
-EtherChannel link aggregation
-Port security
-DHCP snooping
-Dynamic ARP Inspection
-Layer 3 Routing
-IPv4 and IPv6 addressing
-Subnetting and Variable Length Subnet Masking
-Static and default routing
-Floating static routes
-Router-on-a-stick
-Multilayer switching
-Inter-VLAN routing
-OSPF adjacency and route advertisement
-HSRP first-hop redundancy
-GRE tunnel fundamentals
-Infrastructure Services
-DHCP pools, exclusions, and lease validation
-DHCP relay using ip helper-address
-Domain Name System
-Network Time Protocol
-Simple Network Management Protocol
-Syslog
-Secure Shell administration
-FTP and TFTP
-CDP and LLDP neighbor discovery
-Voice VLANs
-Quality of Service
-Wireless LAN configuration
-Network Security
-Standard and extended access control lists
-Layer 2 network segmentation
-Switch-port security
-DHCP snooping
-Dynamic ARP Inspection
-Static NAT, Dynamic NAT, and PAT
-Site-to-site IPsec VPN
-Infrastructure hardening
-Secure remote management
-Traffic-path validation
-Troubleshooting Methodology
-Baseline the topology — identify devices, interfaces, VLANs, subnets, gateways, and expected traffic paths.
-Reproduce the failure — confirm the problem using connectivity tests.
-Inspect Layer 1 — verify cabling, interface state, speed, duplex, and administrative status.
-Inspect Layer 2 — validate VLAN membership, trunking, MAC learning, EtherChannel, and spanning-tree state.
-Inspect Layer 3 — verify addressing, subnet masks, ARP resolution, gateways, and routing-table entries.
-Isolate the root cause — compare the observed state with the intended network design.
-Apply remediation — implement the minimum required Cisco IOS configuration change.
-Validate recovery — repeat connectivity tests and capture technical evidence.
-Document the incident — record the symptoms, diagnostic commands, root cause, corrective action, and final result.
-Core Cisco IOS Commands
+- **IPv4 and IPv6 addressing**
+- **Subnetting and VLSM**
+- **Static and default routing**
+- **Floating static routes**
+- **Router-on-a-stick**
+- **Multilayer switching**
+- **Inter-VLAN routing**
+- **OSPF adjacency and route advertisement**
+- **HSRP first-hop redundancy**
+- **GRE tunnel fundamentals**
 
-show running-config
-show ip interface brief
-show interfaces
-show interfaces trunk
-show vlan brief
-show mac address-table
-show spanning-tree
-show etherchannel summary
-show ip route
-show ip protocols
-show ip ospf neighbor
-show access-lists
-show ip nat translations
-show cdp neighbors detail
-show lldp neighbors detail
-ping
-traceroute
+---
 
-Skills Demonstrated
+## ⚙️ Infrastructure Services
 
-Cisco IOS · Packet Tracer · IPv4/IPv6 · Subnetting · VLSM · VLANs · IEEE 802.1Q · STP/RSTP · EtherChannel · Inter-VLAN Routing · Static Routing · OSPF · ACLs · NAT/PAT · DHCP Relay · HSRP · CDP/LLDP · IPsec VPN · Network Troubleshooting
+| Service | Technical coverage |
+|:---|:---|
+| **DHCP** | Address pools, exclusions, lease validation, and DHCP relay |
+| **DNS** | Name-resolution configuration and validation |
+| **NTP** | Time synchronization and clock hierarchy |
+| **SNMP** | Infrastructure monitoring fundamentals |
+| **Syslog** | Centralized event and message logging |
+| **SSH** | Secure remote administration |
+| **FTP/TFTP** | Network file-transfer services |
+| **CDP/LLDP** | Layer 2 neighbor discovery |
+| **NAT/PAT** | Static NAT, Dynamic NAT, and address translation |
+| **QoS** | Traffic classification and prioritization |
+| **Wireless** | WLAN architecture, security, and configuration |
 
-Portfolio Objective
+---
 
-This repository supports my progression toward Network Security Engineering, Infrastructure Security, Cloud Security, and OT/ICS Security roles.
+## 🔐 Network Security
 
-It provides practical evidence of network configuration, protocol analysis, structured troubleshooting, fault remediation, and security-focused infrastructure validation.
+- **Standard and extended access control lists**
+- **Layer 2 network segmentation**
+- **Switch-port security**
+- **DHCP snooping**
+- **Dynamic ARP Inspection**
+- **Static NAT, Dynamic NAT, and PAT**
+- **Site-to-site IPsec VPN**
+- **Infrastructure hardening**
+- **Secure remote management**
+- **Traffic-path validation**
+
+---
+
+## 🔍 Troubleshooting Methodology
+
+### 1. Baseline the topology
+
+Identify the network devices, interfaces, VLANs, IP subnets, default gateways, trunk links, and expected traffic paths.
+
+### 2. Reproduce the failure
+
+Confirm the connectivity issue with `ping`, `traceroute`, `ipconfig`, and ARP inspection.
+
+### 3. Inspect Layer 1
+
+Validate:
+
+- Physical connectivity
+- Administrative interface status
+- Speed and duplex settings
+- Interface errors
+
+### 4. Inspect Layer 2
+
+Validate:
+
+- VLAN membership
+- Access and trunk modes
+- Allowed VLANs
+- MAC address learning
+- EtherChannel state
+- Spanning-tree operation
+
+### 5. Inspect Layer 3
+
+Validate:
+
+- IPv4/IPv6 addressing
+- Subnet masks
+- Default gateways
+- ARP resolution
+- Router interfaces
+- Routing-table entries
+- OSPF neighbor relationships
+
+### 6. Isolate the root cause
+
+Compare the **observed network state** with the **intended network design**.
+
+### 7. Apply remediation
+
+Implement the minimum controlled **Cisco IOS configuration change** required to resolve the fault.
+
+### 8. Validate recovery
+
+Repeat connectivity tests and capture CLI or Packet Tracer evidence.
+
+### 9. Document the incident
+
+Record the:
+
+- Symptoms
+- Diagnostic commands
+- Root cause
+- Corrective configuration
+- Final validation results
+
+---
+
+## 💻 Core Cisco IOS Commands
+
+| Category | Commands |
+|:---|:---|
+| **Interfaces** | `show ip interface brief`, `show interfaces`, `show interfaces status` |
+| **VLANs and trunks** | `show vlan brief`, `show interfaces trunk` |
+| **Layer 2 forwarding** | `show mac address-table`, `show spanning-tree` |
+| **EtherChannel** | `show etherchannel summary` |
+| **Routing** | `show ip route`, `show ip protocols`, `show ip ospf neighbor` |
+| **Security** | `show access-lists`, `show port-security` |
+| **NAT** | `show ip nat translations`, `show ip nat statistics` |
+| **Discovery** | `show cdp neighbors detail`, `show lldp neighbors detail` |
+| **Connectivity** | `ping`, `traceroute` |
+
+---
+
+## 🧰 Technical Skills Demonstrated
+
+<p align="center">
+
+`Cisco IOS` · `Packet Tracer` · `IPv4/IPv6` · `Subnetting` · `VLSM`  
+`VLANs` · `IEEE 802.1Q` · `STP/RSTP` · `EtherChannel`  
+`Inter-VLAN Routing` · `Static Routing` · `OSPF` · `HSRP`  
+`ACLs` · `NAT/PAT` · `DHCP Relay` · `CDP/LLDP`  
+`IPsec VPN` · `Network Troubleshooting`
+
+</p>
+
+---
+
+## 🚀 Portfolio Objective
+
+This repository supports my progression toward:
+
+- **Network Security Engineer**
+- **Infrastructure Security Engineer**
+- **Cloud Security Engineer**
+- **OT/ICS Security Engineer**
+
+It provides practical evidence of **network configuration, protocol analysis, structured troubleshooting, fault remediation, and security-focused infrastructure validation**.
+
+---
+
+<p align="center">
+  <strong>Built through hands-on configuration, troubleshooting, validation, and continuous learning.</strong>
+</p>
